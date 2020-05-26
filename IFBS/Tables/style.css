@@ -1,0 +1,37 @@
+#value {
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+.tables {
+    display: flex;
+    justify-content: center;
+}
+.active {
+    background: #ff7e23;
+}
+.act {
+    background: #ffb784;
+}
+.active1 {
+    background: #a8ff84;
+}
+#result {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+td {
+    border: 1px solid grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
