@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>n3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="result" style="overflow-wrap: break-word;">
+    </div>
+    <script>
+        function n3() {
+            var p = document.createElement('p');
+            p.innerHTML = "текст";
+            p.setAttribute("style", "display: inline;");
+            document.querySelector('#result').appendChild(p);
+            setInterval(() => {  n3() }, 2);
+        }
+        n3();
+    </script>
+</body>
+</html>
