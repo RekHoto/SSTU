@@ -18,8 +18,8 @@ class Name {
     String pat;
 
     public String toString() {
-        return (sname != null ? sname + ' ' : "")
+        return ((sname != null ? sname + ' ' : "")
                 + (name != null ? name + ' ' : "")
-                + (pat != null ? pat + ' ' : "");
+                + (pat != null ? pat + ' ' : "")).trim();
     }
 }
