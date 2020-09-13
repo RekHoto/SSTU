@@ -1,3 +1,5 @@
+package tasks;
+
 public class Task1_3 {
     public static void main(String[] args) {
         Human n = new Human("Клеопатра", 152);

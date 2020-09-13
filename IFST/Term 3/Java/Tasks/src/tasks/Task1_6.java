@@ -1,3 +1,5 @@
+package tasks;
+
 public class Task1_6 {
     public static void main(String[] args) {
         House n = new House(1);

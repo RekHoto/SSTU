@@ -1,3 +1,5 @@
+package tasks;
+
 public class Task1_2 {
     public static void main(String[] args) {
         Comment n = new Comment(169, "chto");

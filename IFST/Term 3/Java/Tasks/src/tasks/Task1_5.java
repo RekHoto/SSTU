@@ -1,3 +1,5 @@
+package tasks;
+
 public class Task1_5 {
     public static void main(String[] args) {
         Time n = new Time(10);
