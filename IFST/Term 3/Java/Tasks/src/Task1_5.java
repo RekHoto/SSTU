@@ -1,7 +1,11 @@
 public class Task1_5 {
     public static void main(String[] args) {
-        Time n = new Time(49600);
+        Time n = new Time(10);
+        Time n2 = new Time(10000);
+        Time n3 = new Time(100000);
         System.out.println(n);
+        System.out.println(n2);
+        System.out.println(n3);
     }
 }
 
