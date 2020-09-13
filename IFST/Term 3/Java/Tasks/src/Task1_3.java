@@ -18,6 +18,6 @@ class Human {
         this.age = age;
     }
     public String toString() {
-        return this.name + ' ' + (this.age < 160 ? "маленький человек" : this.age > 180 ? "большой человек" : "обычный человек");
+        return name + ' ' + (age < 160 ? "маленький человек" : age > 180 ? "большой человек" : "обычный человек");
     }
 }
