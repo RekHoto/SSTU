@@ -14,6 +14,7 @@ public class Task2_1 {
         System.out.println(l3);
         l1.a = new Point(0,0);
         System.out.println(l3);
+
     }
 }
 

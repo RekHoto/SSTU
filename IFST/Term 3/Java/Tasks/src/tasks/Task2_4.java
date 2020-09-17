@@ -23,8 +23,10 @@ class Worker {
     Department dep;
 
     public String toString() {
-        return name + " работает в отделе " + dep.name + ", начальник которого " + dep.boss.name;
+        return this.equals(dep.boss) ? name + " начальник в отделе " + dep.name : name + " работает в отделе " + dep.name + ", начальник которого " + dep.boss.name;
     }
+
+
 }
 
 class Department {
