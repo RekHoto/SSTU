@@ -2,9 +2,9 @@ package tasks;
 
 public class Task2_3 {
     public static void main(String[] args) {
-        Name n1 = new Name();
-        Name n2 = new Name();
-        Name n3 = new Name();
+        Name1_4 n1 = new Name1_4();
+        Name1_4 n2 = new Name1_4();
+        Name1_4 n3 = new Name1_4();
 
         n1.fname = "Иван"; n1.sname = "Чудов";
         n2.fname = "Петр"; n2.sname = "Чудов";
@@ -24,7 +24,7 @@ public class Task2_3 {
 }
 
 class HumanWithDad {
-    Name name;
+    Name1_4 name;
     int age;
     HumanWithDad dad;
 

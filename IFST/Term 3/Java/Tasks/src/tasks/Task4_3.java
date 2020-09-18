@@ -1,19 +1,19 @@
 package tasks;
 
-public class Task1_6 {
+public class Task4_3 {
     public static void main(String[] args) {
-        House1_6 n = new House1_6(1);
-        House1_6 n2 = new House1_6(5);
-        House1_6 n3 = new House1_6(23);
+        House n = new House(1);
+        House n2 = new House(5);
+        House n3 = new House(23);
         System.out.println(n);
         System.out.println(n2);
         System.out.println(n3);
     }
 }
-class House1_6 {
-    int f;
+class House {
+    final int f;
 
-    public House1_6(int f) {
+    public House(int f) {
         this.f = f;
     }
 

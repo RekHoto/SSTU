@@ -2,19 +2,19 @@ package tasks;
 
 public class Task1_5 {
     public static void main(String[] args) {
-        Time n = new Time(10);
-        Time n2 = new Time(10000);
-        Time n3 = new Time(100000);
+        Time1_5 n = new Time1_5(10);
+        Time1_5 n2 = new Time1_5(10000);
+        Time1_5 n3 = new Time1_5(100000);
         System.out.println(n);
         System.out.println(n2);
         System.out.println(n3);
     }
 }
 
-class Time {
+class Time1_5 {
     int t;
     private int dayt;
-    public Time(int t) {
+    public Time1_5(int t) {
         this.t = t;
         dayt = t % 86400;
     }

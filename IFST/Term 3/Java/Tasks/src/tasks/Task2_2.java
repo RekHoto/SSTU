@@ -2,13 +2,13 @@ package tasks;
 
 public class Task2_2 {
     public static void main(String[] args) {
-        Name n = new Name();
+        Name1_4 n = new Name1_4();
         n.fname = "Клеопатра";
 
-        Name n2 = new Name();
+        Name1_4 n2 = new Name1_4();
         n2.fname = "Александр"; n2.sname = "Пушкин"; n2.pat = "Сергеевич";
 
-        Name n3 = new Name();
+        Name1_4 n3 = new Name1_4();
         n3.fname = "Владимир"; n3.sname = "Маяковский";
 
         HumanWithName h1 = new HumanWithName(n, 152);
@@ -22,10 +22,10 @@ public class Task2_2 {
 }
 
 class HumanWithName {
-    Name name;
+    Name1_4 name;
     int age;
 
-    public HumanWithName(Name name, int age) {
+    public HumanWithName(Name1_4 name, int age) {
         this.name = name;
         this.age = age;
     }

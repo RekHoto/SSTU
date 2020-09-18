@@ -1,20 +1,20 @@
 package tasks;
 
-public class Task1_1 {
+public class Task4_1 {
     public static void main(String[] args) {
-        Point1_1 n = new Point1_1(1, -2);
-        Point1_1 n2 = new Point1_1(4, 5);
-        Point1_1 n3 = new Point1_1(10, -7);
+        Point n = new Point(3, 5);
+        Point n2 = new Point(25, 6);
+        Point n3 = new Point(7, 8);
         System.out.println(n);
         System.out.println(n2);
         System.out.println(n3);
     }
 }
-class Point1_1 {
+class Point {
     int x;
     int y;
 
-    public Point1_1(int x, int y) {
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
