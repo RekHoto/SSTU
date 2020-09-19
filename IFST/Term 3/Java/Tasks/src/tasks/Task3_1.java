@@ -29,6 +29,26 @@ class Student {
         }
     }
 
+    double avrgMark() {
+        if (marks == null) {
+            return 0;
+        } else {
+            double avrg = 0;
+            for (int i = 0; i < marks.length; i++) {
+                avrg += marks[i];
+            }
+            avrg /= marks.length;
+            return avrg;
+        }
+    }
+    String isExcSt() {
+        String str = "";
+        double avrg = avrgMark();
+        str += "Средняя оценка: " + avrg + ", ";
+        if (avrg == 5.0) {str += "отличник";} else {str += "не отличник";}
+        return str;
+    }
+
     public Student(String name, int[] marks) {
         this.name = name;
         this.marks = marks;
@@ -44,11 +64,13 @@ class Student {
 
     public String toString() {
         String str = name + ": ";
-        for (int i = 0; i < marks.length; i++) {
-            if (i != marks.length - 1) {
-                str += marks[i] + ", ";
-            } else {
-                str += marks[i] + ".";
+        if (marks != null) {
+            for (int i = 0; i < marks.length; i++) {
+                if (i != marks.length - 1) {
+                    str += marks[i] + ", ";
+                } else {
+                    str += marks[i] + ".";
+                }
             }
         }
         return str;

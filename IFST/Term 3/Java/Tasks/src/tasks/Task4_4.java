@@ -27,6 +27,18 @@ class Time {
         this.s = s;
     }
 
+    public int getHours() {
+        return h;
+    }
+
+    public int getMinutes() {
+        return m;
+    }
+
+    public int getSeconds() {
+        return s;
+    }
+
     public String toString() {
         return (h < 10 ? "0" + h + ":": "" + h + ":") +
                 (m < 10 ? "0" + m + ":" : "" + m + ":") +

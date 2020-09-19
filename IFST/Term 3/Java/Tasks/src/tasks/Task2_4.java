@@ -3,9 +3,9 @@ package tasks;
 public class Task2_4 {
     public static void main(String[] args) {
         Department d1 = new Department();
-        Worker w1 = new Worker();
-        Worker w2 = new Worker();
-        Worker w3 = new Worker();
+        Employee w1 = new Employee();
+        Employee w2 = new Employee();
+        Employee w3 = new Employee();
 
         d1.name = "IT";
         w1.name = "Петров"; w2.name = "Козлов"; w3.name = "Сидоров";
@@ -18,7 +18,7 @@ public class Task2_4 {
     }
 }
 
-class Worker {
+class Employee {
     String name;
     Department dep;
 
@@ -31,5 +31,5 @@ class Worker {
 
 class Department {
     String name;
-    Worker boss;
+    Employee boss;
 }

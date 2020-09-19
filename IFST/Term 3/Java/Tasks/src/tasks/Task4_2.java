@@ -29,7 +29,14 @@ class Line {
         this.a = a;
         this.b = b;
     }
-
+    public int findLength() {
+        double length = Math.sqrt(Math.pow(Math.abs(a.x - b.x), 2) + Math.pow(Math.abs(a.y - b.y), 2));
+        return (int)length;
+    }
+    public static double findLength(Point a, Point b) {
+        double length = Math.sqrt(Math.pow(Math.abs(a.x - b.x), 2) + Math.pow(Math.abs(a.y - b.y), 2));
+        return length;
+    }
     public String toString() {
         return a + ", " + b;
     }

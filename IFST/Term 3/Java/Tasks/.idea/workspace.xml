@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task4_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task4_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task5_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task2_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task2_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Way.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Way.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task2_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task2_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,48 +67,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task4_6">
-    <configuration name="Task2_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task2_5" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.Track2_6" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task3_4" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.Line2_1" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task3_5" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.Line2_1" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task4_4" />
+  <component name="RunManager" selected="Application.Task5_8">
+    <configuration name="Task5_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_4" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +81,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task4_6" />
+    <configuration name="Task5_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_5" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_6" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_7" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_8" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task4_6" />
-        <item itemvalue="Application.Task4_4" />
-        <item itemvalue="Application.Task3_5" />
-        <item itemvalue="Application.Task2_5" />
-        <item itemvalue="Application.Task3_4" />
+        <item itemvalue="Application.Task5_8" />
+        <item itemvalue="Application.Task5_7" />
+        <item itemvalue="Application.Task5_6" />
+        <item itemvalue="Application.Task5_5" />
+        <item itemvalue="Application.Task5_4" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +159,8 @@
       <workItem from="1600260660644" duration="13926000" />
       <workItem from="1600403227129" duration="3630000" />
       <workItem from="1600408226706" duration="2723000" />
+      <workItem from="1600488775231" duration="4418000" />
+      <workItem from="1600500917577" duration="5730000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
@@ -187,5 +208,41 @@
     <MESSAGE value="1st block" />
     <MESSAGE value="fix" />
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task5_7.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task4_2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task4_2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
