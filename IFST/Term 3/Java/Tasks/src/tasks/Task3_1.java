@@ -29,6 +29,15 @@ class Student {
         }
     }
 
+    public Student(String name, int[] marks) {
+        this.name = name;
+        this.marks = marks;
+    }
+
+    Student(String name) {
+        this(name, null);
+    }
+    Student(){};
     public void setMarks(int[] marks) {
         this.marks = marks;
     }
