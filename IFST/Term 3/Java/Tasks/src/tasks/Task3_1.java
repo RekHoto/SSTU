@@ -1,32 +1,30 @@
 package tasks;
 
+import java.util.ArrayList;
+
 public class Task3_1 {
     public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.name = "Вася"; s1.marks = new int[]{3, 4, 5};
+        Student s1 = new Student("Вася");
+
         System.out.println(s1);
 
-        Student s2 = new Student();
-        s2.name = "Петя"; s2.marks = s1.marks;
-        s1.marks[0] = 5;
+        Student s2 = new Student("Петя");
+
         System.out.println(s2);
 
-        Student s3 = new Student();
-        s3.name = "Андрей"; s3.copyMarks(s1.marks);
-        s1.marks[1] = 1;
+        Student s3 = new Student("Андрей");
+
         System.out.println(s3);
     }
 }
 
 class Student {
-    String name;
-    int[] marks;
+    private String name;
+    private ArrayList<Integer> marks;
 
-    public void copyMarks(int[] arr) {
-        this.marks = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-            this.marks[i] = arr[i];
-        }
+    public void copyMarks(ArrayList<Integer> arr) {
+        this.marks = new ArrayList<Integer>(arr.size());
+        this.marks.addAll(arr);
     }
 
     double avrgMark() {
@@ -34,10 +32,10 @@ class Student {
             return 0;
         } else {
             double avrg = 0;
-            for (int i = 0; i < marks.length; i++) {
-                avrg += marks[i];
+            for (int i = 0; i < marks.size(); i++) {
+                avrg += marks.get(i);
             }
-            avrg /= marks.length;
+            avrg /= marks.size();
             return avrg;
         }
     }
@@ -49,29 +47,36 @@ class Student {
         return str;
     }
 
-    public Student(String name, int[] marks) {
+    public Student(String name) {
         this.name = name;
-        this.marks = marks;
+        this.marks = new ArrayList<Integer>();
+    }
+    public void addMark(int m) {
+        try {
+            if (m < 2 || m > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
+            this.marks.add(m);
+        } catch (IllegalArgumentException e){
+            e.printStackTrace();
+        }
+
     }
 
-    Student(String name) {
-        this(name, null);
-    }
-    Student(){};
-    public void setMarks(int[] marks) {
-        this.marks = marks;
+    public void setMarks(ArrayList<Integer> marks) {
+        try {
+            this.marks = new ArrayList<Integer>();
+            for (int i = 0; i < marks.size(); i++) {
+                if (marks.get(i) < 2 || marks.get(i) > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
+            }
+            this.marks.addAll(marks);
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+        }
     }
 
     public String toString() {
         String str = name + ": ";
         if (marks != null) {
-            for (int i = 0; i < marks.length; i++) {
-                if (i != marks.length - 1) {
-                    str += marks[i] + ", ";
-                } else {
-                    str += marks[i] + ".";
-                }
-            }
+            str += marks;
         }
         return str;
     }

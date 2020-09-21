@@ -15,33 +15,49 @@ public class Task4_6 {
 
 class Human {
     Name name;
-    int age;
-    Human dad;
+    private int height;
+    final Human dad;
 
-    public Human(Name name, int age, Human dad) {
+    public Human(Name name, int height, Human dad) {
+        if (height > 500 || height < 0) throw new IllegalArgumentException("Рост не тот");
         this.name = name;
-        this.age = age;
+        this.height = height;
         this.dad = dad;
         if (dad != null) {
-            if (name.sname == null && dad.name.sname != null) {
-                name.sname = dad.name.sname;
+            if (name.getSname() == null && dad.name.getSname() != null) {
+                name.setSname(dad.name.getSname());
             }
-            if (name.pat == null) {
-                name.pat = dad.name.fname + "ович";
+            if (name.getPat() == null) {
+                name.setPat(dad.name.getPat() + "ович");
             }
         }
     }
-    Human(String fname, int age) {
-        this(new Name(fname), age, null);
+
+    public Name getName() {
+        return name;
     }
-    Human(String fname, int age, Human dad) {
-        this(new Name(fname, dad.name.sname, dad.name.fname + "ович"), age, dad);
+
+    public int getHeight() {
+        return height;
     }
-    Human(Name name, int age) {
-        this(name, age, null);
+
+    public Human getDad() {
+        return dad;
+    }
+
+
+
+    Human(String fname, int height) {
+        this(new Name(fname), height, null);
+    }
+    Human(String fname, int height, Human dad) {
+        this(new Name(fname, dad.name.getSname(), dad.name.getFname() + "ович"), height, new Human(dad.getName(), dad.getHeight(), dad.getDad()));
+    }
+    Human(Name name, int height) {
+        this(name, height, null);
     }
 
     public String toString() {
-        return name + ", " + age;
+        return name + ", " + height;
     }
 }

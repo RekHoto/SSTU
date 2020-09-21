@@ -13,15 +13,21 @@ public class Task5_8 {
 }
 
 class Square {
-    Point origin;
-    int side;
+    private Point origin;
+    private int side;
 
     public Square(Point origin, int side) {
+        if (side < 0) throw new IllegalArgumentException("Сторона не может быть меньше 0");
         this.origin = origin;
         this.side = side;
     }
     Square(int x, int y, int side) {
         this(new Point(x, y), side);
+    }
+
+    public void setSide(int side) {
+        if (side < 0) throw new IllegalArgumentException("Сторона не может быть меньше 0");
+        this.side = side;
     }
 
     BrokenLine toBL() {

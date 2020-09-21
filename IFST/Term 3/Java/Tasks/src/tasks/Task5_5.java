@@ -2,7 +2,7 @@ package tasks;
 
 public class Task5_5 {
     public static void main(String[] args) {
-        Fraction f1 = new Fraction(2,4);
+        Fraction f1 = new Fraction(-2,4);
         Fraction f2 = new Fraction(2,6);
         Fraction f3 = new Fraction(4,10);
         System.out.println(f1 + " + " + f2 + " = " + f1.sum(f2));
@@ -14,14 +14,19 @@ public class Task5_5 {
     }
 }
 class Fraction {
-    int num;
-    int den;
+    final int num;
+    final int den;
 
     public Fraction(int num, int den) {
-        this.num = num;
-        this.den = den;
+        if (den < 0) {
+            this.num = -num;
+            this.den = -den;
+        } else {
+            this.num = num;
+            this.den = den;
+        }
+
     }
-    private Fraction(){}
 
     int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
@@ -29,50 +34,50 @@ class Fraction {
     int lcd(int a, int b) {
         return a / gcd(a,b) * b;
     }
+
+    int[] reduce(int num, int den) {
+        int gcd = gcd(num, den);
+        num /= gcd;
+        den /= gcd;
+        return new int[]{num, den};
+    }
+
     public Fraction sum(Fraction f2) {
-        Fraction res = new Fraction();
-        res.den = lcd(this.den, f2.den);
-        res.num = this.num * (res.den / this.den) + f2.num * (res.den / f2.den);
-        reduce(res);
-        return res;
+        int den = lcd(this.den, f2.den);
+        int num = this.num * (den / this.den) + f2.num * (den / f2.den);
+        int[] res = reduce(num, den);
+        return new Fraction(res[0], res[1]);
     }
-    void reduce(Fraction f) {
-        int gcd = gcd(f.num, f.den);
-        f.num /= gcd;
-        f.den /= gcd;
-    }
+
     Fraction sum(int n){
         return this.sum(new Fraction(n * n, n));
     }
     
     public Fraction minus(Fraction f2) {
-        Fraction res = new Fraction();
-        res.den = lcd(this.den, f2.den);
-        res.num = this.num * (res.den / this.den) - f2.num * (res.den / f2.den);
-        reduce(res);
-        return res;
+        int den = lcd(this.den, f2.den);
+        int num = this.num * (den / this.den) - f2.num * (den / f2.den);
+        int[] res = reduce(num, den);
+        return new Fraction(res[0], res[1]);
     }
     Fraction minus(int n) {
         return this.minus(new Fraction(n * n, n));
     }
 
     public Fraction multiply(Fraction f2) {
-        Fraction res = new Fraction();
-        res.num = this.num * f2.num;
-        res.den = this.den * f2.den;
-        reduce(res);
-        return res;
+        int num = this.num * f2.num;
+        int den = this.den * f2.den;
+        int[] res = reduce(num, den);
+        return new Fraction(res[0], res[1]);
     }
     Fraction multiply(int n) {
         return this.multiply(new Fraction(n * n, n));
     }
 
     public Fraction div(Fraction f2) {
-        Fraction res = new Fraction();
-        res.num = this.num * f2.den;
-        res.den = this.den * f2.num;
-        reduce(res);
-        return res;
+        int num = this.num * f2.den;
+        int den = this.den * f2.num;
+        int[] res = reduce(num, den);
+        return new Fraction(res[0], res[1]);
     }
 
     public String toString() {

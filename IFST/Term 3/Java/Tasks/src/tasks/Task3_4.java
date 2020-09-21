@@ -1,5 +1,8 @@
 package tasks;
 
+import java.nio.file.AccessDeniedException;
+import java.util.ArrayList;
+
 public class Task3_4 {
     public static void main(String[] args) {
         Album a1 = new Album();
@@ -7,12 +10,10 @@ public class Task3_4 {
         a1.name = "Кукловод"; a1.author = "Металлов";
         a2.name = "Шоссе к ООП"; a2.author = "Асид";
 
-        Track t1 = new Track();
-        Track t2 = new Track();
-        Track t3 = new Track();
-        t1.name = "Состояние объектов"; t1.author = "Янг"; t1.album = a2;
-        t2.name = "Шоссе к ООП"; t2.album = a2;
-        t3.name = "Одноразовый программист"; t3.author = "Бертон"; t3.album = a1;
+        Track t1 = new Track("Состояние объектов","Янг",a2);
+        Track t2 = new Track("Шоссе к ООП",a2);
+        Track t3 = new Track("Одноразовый программист","Бертон",a1);
+
 
         a2.tracks = new Track[]{t1, t2};
         System.out.println(t1.showAlbum());
@@ -20,16 +21,38 @@ public class Task3_4 {
 }
 
 class Track {
-    String name;
-    String author;
-    Album album;
+    private String name;
+    private String author;
+    private Album album;
 
+    public Track(String name, String author, Album album) {
+
+    }
+    Track(String name, Album album){this(name, null, album);}
+    Track(String name){this(name, null, null);}
     public String showAlbum() {
-        String str = "";
-        for (int i = 0; i < album.tracks.length; i++) {
-            str += album.tracks[i] + "\n";
+        return album.getTracks();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public Album getAlbum() {
+        return album;
+    }
+
+    public void setAlbum(Album album) {
+        try {
+            if (album != null) throw new AccessDeniedException("Альбом уже есть");
+            this.album = album;
+        } catch (AccessDeniedException e) {
+            e.printStackTrace();
         }
-        return str;
     }
 
     public String toString() {
@@ -40,5 +63,29 @@ class Track {
 class Album {
     String name;
     String author;
-    Track[] tracks;
+    ArrayList<Track> tracks;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public ArrayList<Track> getTracks() {
+        return tracks;
+    }
+
+    public void addTrack(Track t) {
+        if (t.getAlbum() != null) throw new AccessDeniedException("Альбом уже есть");
+    }
 }

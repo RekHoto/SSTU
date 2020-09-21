@@ -1,5 +1,6 @@
 package tasks;
 
+import java.nio.file.AccessDeniedException;
 import java.util.ArrayList;
 
 public class Task3_5 {
@@ -9,35 +10,76 @@ public class Task3_5 {
                 "материалы странно ведут себя в присутствии\n" +
                 "электричества. В 1874 году Фердинанд Браун\n" +
                 "опубликовал статью “О прохождении электрических\n" +
-                "токов через сульфиды металлов”. И все завертелось…", new String[]{"История", "IT", "Электроника"}, 10);
+                "токов через сульфиды металлов”. И все завертелось…", new String[]{"История", "IT", "Электроника"});
 
-        Comments c1 = new Comments(1, "Держите ссылку на то как работают светодиоды из карбида кремния ввв.свет.ру");
-        Comments c2 = new Comments(0, "Спасибо!");
-        Comments c3 = new Comments(0, "Thanks!");
-        Comments c4 = new Comments(0, "Это перевод? Пойду оригинал почитаю");
-        Comments c5 = new Comments(0, "а где ссылка на оригинал?");
-        Comments c6 = new Comments(3, "автор, добавь ссылку в начало статьи");
-        Comments c7 = new Comments(5, "Какую только дичь не писали в журналах 20-30гг пытаясь объяснить работу кристаллического детектора");
+        p1.plusRating();
+        p1.changeText("1");
 
-        p1.comments.add(c1); p1.comments.add(c4); p1.comments.add(c7);
-        c1.setResponse(c2); c1.setResponse(c3); c4.setResponse(c5); c5.setResponse(c6);
+        p1.addComment("Держите ссылку на то как работают светодиоды из карбида кремния ввв.свет.ру");
+        p1.getComment(0).addResponse("Спасибо!");
+        p1.getComment(0).addResponse("Thanks!");
+        p1.addComment("Это перевод? Пойду оригинал почитаю");
+        p1.getComment(1).addResponse("а где ссылка на оригинал?");
+        p1.getComment(1).getResponse(0).addResponse("автор, добавь ссылку в начало статьи");
+        p1.addComment("Какую только дичь не писали в журналах 20-30гг пытаясь объяснить работу кристаллического детектора");
 
         System.out.println(p1);
     }
 }
 
 class Post {
-    String title;
-    String text;
-    String[] tags;
-    ArrayList<Comments> comments = new ArrayList<Comments>();
+    final String title;
+    private String text;
+    private boolean changeable;
+    final String[] tags;
+    private ArrayList<Comments> comments;
     int rating;
 
-    public Post(String title, String text, String[] tags, int rating) {
+    public Post(String title, String text, String[] tags) {
         this.title = title;
         this.text = text;
         this.tags = tags;
-        this.rating = rating;
+        this.rating = 0;
+        this.changeable = true;
+        this.comments = new ArrayList<Comments>();
+    }
+
+    public Comments getComment(int i) {
+        try {
+            return comments.get(i);
+        } catch (IndexOutOfBoundsException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+    public String getTitle() {
+        return title;
+    }
+    public void plusRating() {
+        changeable = false;
+        rating++;
+    }
+    public void minusRating() {
+        changeable = false;
+        rating--;
+    }
+    public void addComment(String str) {
+        changeable = false;
+        comments.add(new Comments(str));
+    }
+
+    public boolean isChangeable() {
+        return changeable;
+    }
+
+    public void changeText(String text) {
+        try {
+            if (!changeable) throw new AccessDeniedException("Нельзя");
+            this.text = text;
+        } catch (AccessDeniedException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public String toString() {

@@ -14,6 +14,7 @@ class House {
     final int f;
 
     public House(int f) {
+        if (f < 1) throw new IllegalArgumentException("этажей не может быть меньше 1");
         this.f = f;
     }
 
