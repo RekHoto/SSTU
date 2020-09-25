@@ -47,7 +47,7 @@ class Comments {
     public Comments getResponse(int i) {
         try {
             return response.get(i);
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } catch (IndexOutOfBoundsException e) {
             e.printStackTrace();
             return null;
         }

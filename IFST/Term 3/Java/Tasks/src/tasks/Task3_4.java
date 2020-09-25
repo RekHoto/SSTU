@@ -1,21 +1,21 @@
 package tasks;
 
-import java.nio.file.AccessDeniedException;
+import javax.naming.directory.AttributeInUseException;
 import java.util.ArrayList;
 
 public class Task3_4 {
     public static void main(String[] args) {
         Album a1 = new Album();
         Album a2 = new Album();
-        a1.name = "Кукловод"; a1.author = "Металлов";
-        a2.name = "Шоссе к ООП"; a2.author = "Асид";
+        a1.setName("Кукловод"); a1.setAuthor("Металлов");
+        a2.setName("Шоссе к ООП"); a2.setAuthor("Асид");
 
         Track t1 = new Track("Состояние объектов","Янг",a2);
         Track t2 = new Track("Шоссе к ООП",a2);
         Track t3 = new Track("Одноразовый программист","Бертон",a1);
 
 
-        a2.tracks = new Track[]{t1, t2};
+        a2.addTrack(t1); a2.addTrack(t2);
         System.out.println(t1.showAlbum());
     }
 }
@@ -31,7 +31,7 @@ class Track {
     Track(String name, Album album){this(name, null, album);}
     Track(String name){this(name, null, null);}
     public String showAlbum() {
-        return album.getTracks();
+        return album.getTracks().toString();
     }
 
     public String getName() {
@@ -48,22 +48,23 @@ class Track {
 
     public void setAlbum(Album album) {
         try {
-            if (album != null) throw new AccessDeniedException("Альбом уже есть");
+            if (album != null) throw new AttributeInUseException("Альбом уже есть");
             this.album = album;
-        } catch (AccessDeniedException e) {
+        } catch (AttributeInUseException e) {
             e.printStackTrace();
         }
     }
 
     public String toString() {
-        return name + ", " + (album.author != null && author != null && album.author != author ? "авторы: " + album.author + ", " + author :
-                album.author != null && author == null ? "автор: " + album.author : "автор: " + author);
+        String albumAuthor = album.getAuthor();
+        return name + ", " + (albumAuthor != null && author != null && albumAuthor != author ? "авторы: " + albumAuthor + ", " + author :
+                albumAuthor != null && author == null ? "автор: " + albumAuthor : "автор: " + author);
     }
 }
 class Album {
-    String name;
-    String author;
-    ArrayList<Track> tracks;
+    private String name;
+    private String author;
+    private ArrayList<Track> tracks;
 
     public String getName() {
         return name;
@@ -86,6 +87,10 @@ class Album {
     }
 
     public void addTrack(Track t) {
-        if (t.getAlbum() != null) throw new AccessDeniedException("Альбом уже есть");
+        try {
+            if (t.getAlbum() != null) throw new AttributeInUseException("Альбом уже есть");
+        } catch (AttributeInUseException e) {
+            e.printStackTrace();
+        }
     }
 }

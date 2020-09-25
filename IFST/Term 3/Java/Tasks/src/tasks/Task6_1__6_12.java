@@ -1,6 +1,6 @@
 package tasks;
 
-public class Task6_1__6_8 {
+public class Task6_1__6_12 {
     public static void main(String[] args) {
         // Task6_1
         try {
@@ -70,8 +70,10 @@ public class Task6_1__6_8 {
         // see Task3_5, Task2_5
 
         // Task6_11
+        // see Task3_4
 
         // Task6_12
+        // see Task2_4
     }
 }
 //Task4_3

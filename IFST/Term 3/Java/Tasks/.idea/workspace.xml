@@ -2,44 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task6_1__6_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task7_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task7_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task7_3__7_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task7_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task7_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task7_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Gun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Gun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Name.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task3_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task4_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task4_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task4_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task4_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task4_7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Comments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task2_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task2_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task3_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task3_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task6_1__6_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Track.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task2_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task2_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task2_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task2_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task3_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task3_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task3_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task3_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task6_1__6_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Tasks" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,7 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,9 +67,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task3_5">
-    <configuration name="Task2_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task2_5" />
+  <component name="RunManager" selected="Application.Task7_6">
+    <configuration name="Task7_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task7_1" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task3_1" />
+    <configuration name="Task7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task7_2" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task3_5" />
+    <configuration name="Task7_3__7_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task7_3__7_4" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task4_5" />
+    <configuration name="Task7_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task7_5" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6_1__6_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task6_1__6_8" />
+    <configuration name="Task7_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task7_6" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3_5" />
-        <item itemvalue="Application.Task2_5" />
-        <item itemvalue="Application.Task4_5" />
-        <item itemvalue="Application.Task6_1__6_8" />
-        <item itemvalue="Application.Task3_1" />
+        <item itemvalue="Application.Task7_6" />
+        <item itemvalue="Application.Task7_5" />
+        <item itemvalue="Application.Task7_3__7_4" />
+        <item itemvalue="Application.Task7_2" />
+        <item itemvalue="Application.Task7_1" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +161,11 @@
       <workItem from="1600408226706" duration="2723000" />
       <workItem from="1600488775231" duration="4418000" />
       <workItem from="1600500917577" duration="5730000" />
-      <workItem from="1600585462428" duration="13787000" />
+      <workItem from="1600585462428" duration="15583000" />
+      <workItem from="1600660948022" duration="12721000" />
+      <workItem from="1600780640322" duration="2515000" />
+      <workItem from="1600786038005" duration="16349000" />
+      <workItem from="1600931101855" duration="9078000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
@@ -237,19 +233,164 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tasks/Task4_2.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tasks/Task4_2.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
           <line>8</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_2.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_3__7_4.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_5.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_5.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_5.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_6.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_6.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_6.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_6.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_6.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tasks/Task7_6.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

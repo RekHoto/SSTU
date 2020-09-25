@@ -1,6 +1,6 @@
 package tasks;
 
-import java.nio.file.AccessDeniedException;
+import javax.naming.directory.AttributeInUseException;
 import java.util.ArrayList;
 
 public class Task3_5 {
@@ -74,9 +74,9 @@ class Post {
 
     public void changeText(String text) {
         try {
-            if (!changeable) throw new AccessDeniedException("Нельзя");
+            if (!changeable) throw new AttributeInUseException("Нельзя");
             this.text = text;
-        } catch (AccessDeniedException e) {
+        } catch (AttributeInUseException e) {
             e.printStackTrace();
         }
 
