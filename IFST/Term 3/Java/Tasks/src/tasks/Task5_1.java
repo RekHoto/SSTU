@@ -2,7 +2,7 @@ package tasks;
 
 public class Task5_1 {
     public static void main(String[] args) {
-        Gun g1 = new Gun(7);
+        Pistol g1 = new Pistol(7);
         g1.reload(3);
         for (int i = 0; i < 5; i++) {
             g1.shoot();
@@ -11,11 +11,11 @@ public class Task5_1 {
     }
 }
 
-class Gun {
+class Pistol {
     int ammo;
     final int maxAmmo;
 
-    public Gun(int maxAmmo) {
+    public Pistol(int maxAmmo) {
         if (ammo < 0 || maxAmmo < 0) throw new IllegalArgumentException("Патронов не может быть меньше 0");
         this.ammo = ammo;
         this.maxAmmo = maxAmmo;

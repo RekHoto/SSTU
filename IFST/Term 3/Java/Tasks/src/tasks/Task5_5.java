@@ -13,11 +13,12 @@ public class Task5_5 {
         System.out.println(f1.sum(f2).div(f3).minus(5));
     }
 }
-class Fraction {
+final class Fraction {
     final int num;
     final int den;
 
     public Fraction(int num, int den) {
+        if (den == 0) throw new IllegalArgumentException();
         if (den < 0) {
             this.num = -num;
             this.den = -den;

@@ -40,7 +40,7 @@ public class Task6_1__6_12 {
         // see Task5_5
 
         // Task 6_5
-        Gun g1 = new Gun(7);
+        Pistol g1 = new Pistol(7);
         g1.reload(3);
         for (int i = 0; i < 5; i++) {
             g1.shoot();

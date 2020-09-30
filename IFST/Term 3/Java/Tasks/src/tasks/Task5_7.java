@@ -31,7 +31,7 @@ class BrokenLine {
     void addPoints(ArrayList<Point> arr) {
         points.addAll(arr);
     }
-    double length() {
+    public double length() {
         if (points.size() < 2) return 0;
         double length = 0;
         for (int i = 1; i < points.size(); i++) {
