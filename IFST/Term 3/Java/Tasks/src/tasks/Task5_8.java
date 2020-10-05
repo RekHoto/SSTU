@@ -1,7 +1,5 @@
 package tasks;
 
-import java.util.ArrayList;
-
 public class Task5_8 {
     public static void main(String[] args) {
         Square s1 = new Square(5, 3, 24);

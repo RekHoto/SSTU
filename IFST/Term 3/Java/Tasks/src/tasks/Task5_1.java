@@ -11,39 +11,14 @@ public class Task5_1 {
     }
 }
 
-class Pistol {
-    int ammo;
-    final int maxAmmo;
-
+class Pistol extends Weapon {
     public Pistol(int maxAmmo) {
-        if (ammo < 0 || maxAmmo < 0) throw new IllegalArgumentException("Патронов не может быть меньше 0");
-        this.ammo = ammo;
-        this.maxAmmo = maxAmmo;
-    }
-
-    public void reload(int ammo) {
-        if (ammo < 0) throw new IllegalArgumentException("Патронов не может быть меньше 0");
-        this.ammo = ammo < maxAmmo ? ammo : maxAmmo;
-    }
-
-    public int unload() {
-        int temp = ammo;
-        ammo = 0;
-        return temp;
-    }
-
-    public int getAmmo() {
-        return ammo;
-    }
-
-    public String status() {
-        return ammo > 0 ? "Заряжен" : "Не заряжен";
+        super(maxAmmo);
     }
 
     public void shoot() {
-        if (ammo > 0) {
+        if (getAmmo()) {
             System.out.println("Бах!");
-            ammo--;
         } else {
             System.out.println("Клац!");
         }

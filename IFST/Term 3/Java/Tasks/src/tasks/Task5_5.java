@@ -10,10 +10,10 @@ public class Task5_5 {
         System.out.println(f1 + " * " + f2 + " = " + f1.multiply(f2));
         System.out.println(f1 + " / " + f2 + " = " + f1.div(f2));
 
-        System.out.println(f1.sum(f2).div(f3).minus(5));
+        System.out.println(f1.sum(f2).div(f3).minus(5).doubleValue());
     }
 }
-final class Fraction {
+final class Fraction extends Number {
     final int num;
     final int den;
 
@@ -83,5 +83,25 @@ final class Fraction {
 
     public String toString() {
         return num + "/" + den;
+    }
+
+    @Override
+    public int intValue() {
+        return num / den;
+    }
+
+    @Override
+    public long longValue() {
+        return (long)num / (long)den;
+    }
+
+    @Override
+    public float floatValue() {
+        return (float) num / (float) den;
+    }
+
+    @Override
+    public double doubleValue() {
+        return (double) num / (double) den;
     }
 }

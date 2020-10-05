@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task9_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task9_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task9_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task9_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/BrokenLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/BrokenLine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Time.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task4_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Pistol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Pistol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Rifle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Rifle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task5_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task9_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task9_4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task9_4">
-    <configuration name="Task4_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task4_4" />
+  <component name="RunManager" selected="Application.Task5_5">
+    <configuration name="Task10_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task10_1" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task7_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task7_6" />
+    <configuration name="Task10_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task10_2" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task9_1" />
+    <configuration name="Task10_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task10_3" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task9_3" />
+    <configuration name="Task5_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_5" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task5_5" />
+        <item itemvalue="Application.Task10_3" />
+        <item itemvalue="Application.Task10_2" />
+        <item itemvalue="Application.Task10_1" />
         <item itemvalue="Application.Task9_4" />
-        <item itemvalue="Application.Task9_3" />
-        <item itemvalue="Application.Task4_4" />
-        <item itemvalue="Application.Task9_1" />
-        <item itemvalue="Application.Task7_6" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,7 @@
       <workItem from="1600786038005" duration="16349000" />
       <workItem from="1600931101855" duration="9677000" />
       <workItem from="1601145236855" duration="657000" />
-      <workItem from="1601367468660" duration="9817000" />
+      <workItem from="1601367468660" duration="21309000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
@@ -213,12 +215,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
-          <line>7</line>
+          <line>5</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
-          <line>39</line>
+          <line>37</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -228,7 +230,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tasks/Task5_8.java</url>
-          <line>8</line>
+          <line>6</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

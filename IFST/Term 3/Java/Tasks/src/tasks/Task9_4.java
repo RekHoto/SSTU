@@ -24,7 +24,7 @@ class Rifle extends Pistol {
     public void shoot(int n) {
         if (n < 0) throw new IllegalArgumentException();
         for (int i = 0; i < n * rateOfFire; i++) {
-            if (ammo == 0) reload(maxAmmo);
+            if (!getAmmo()) reload(maxAmmo);
             super.shoot();
         }
     }
