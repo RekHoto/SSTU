@@ -24,11 +24,11 @@ public class Task6_1__6_12 {
 
         // Task6_3
         try {
-            Square s1 = new Square(2,3,-1);
+            Square5_8 s1 = new Square5_8(2,3,-1);
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
-        Square s2 = new Square(2,3,1);
+        Square5_8 s2 = new Square5_8(2,3,1);
         try {
             s2.setSide(-1);
         } catch (IllegalArgumentException e) {

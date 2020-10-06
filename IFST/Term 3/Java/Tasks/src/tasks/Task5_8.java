@@ -2,7 +2,7 @@ package tasks;
 
 public class Task5_8 {
     public static void main(String[] args) {
-        Square s1 = new Square(5, 3, 24);
+        Square5_8 s1 = new Square5_8(5, 3, 24);
         BrokenLine l1 = s1.toBL();
         System.out.println(l1.length());
         l1.points.set(l1.points.size() - 1, new Point(5, 10));
@@ -10,16 +10,16 @@ public class Task5_8 {
     }
 }
 
-class Square {
+class Square5_8 {
     private Point origin;
     private int side;
 
-    public Square(Point origin, int side) {
+    public Square5_8(Point origin, int side) {
         if (side < 0) throw new IllegalArgumentException("Сторона не может быть меньше 0");
         this.origin = origin;
         this.side = side;
     }
-    Square(int x, int y, int side) {
+    Square5_8(int x, int y, int side) {
         this(new Point(x, y), side);
     }
 

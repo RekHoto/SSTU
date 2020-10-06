@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Task10_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Pistol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Pistol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Rifle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Rifle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tasks/Task5_8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task10_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task10_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tasks/Task5_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task9_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task9_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +151,7 @@
       <workItem from="1600931101855" duration="9677000" />
       <workItem from="1601145236855" duration="657000" />
       <workItem from="1601367468660" duration="21309000" />
+      <workItem from="1601871744120" duration="4293000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
