@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task10_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task10_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task5_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task5_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task6_1__6_12.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task5_5">
+  <component name="RunManager" selected="Application.Task5_2">
     <configuration name="Task10_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.Task10_1" />
       <module name="Tasks" />
@@ -90,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task5_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Task5_2" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task5_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.Task5_5" />
       <module name="Tasks" />
@@ -103,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Task9_4" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task5_2" />
         <item itemvalue="Application.Task5_5" />
         <item itemvalue="Application.Task10_3" />
         <item itemvalue="Application.Task10_2" />
         <item itemvalue="Application.Task10_1" />
-        <item itemvalue="Application.Task9_4" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +149,7 @@
       <workItem from="1601145236855" duration="657000" />
       <workItem from="1601367468660" duration="21309000" />
       <workItem from="1601871744120" duration="4293000" />
+      <workItem from="1602175462114" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
