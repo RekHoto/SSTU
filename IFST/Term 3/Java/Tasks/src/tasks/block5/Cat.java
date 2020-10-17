@@ -12,11 +12,9 @@ public class Cat {
         System.out.println(name + ": Мяу!");
     }
     public void meow(int n) {
-        String str = name + ": ";
         for (int i = 0; i < n; i++) {
-            str += i == n - 1 ? "мяу" : "мяу-";
+            this.meow();
         }
-        System.out.println(str);
     }
 
     public String toString() {
