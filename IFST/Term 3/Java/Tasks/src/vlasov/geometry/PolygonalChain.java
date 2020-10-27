@@ -8,7 +8,7 @@ import java.util.List;
 public class PolygonalChain implements ObjectWithLength, PolygonalChains {
     List<Point> points;
 
-    public PolygonalChain(ArrayList<Point> points) {
+    public PolygonalChain(List<Point> points) {
         this.points = points;
     }
     public PolygonalChain(){this(new ArrayList<Point>());}

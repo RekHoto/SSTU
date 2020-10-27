@@ -2,137 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/vlasov/birds/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/birds/Cuckoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/birds/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/ObjectWithLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/geometry/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/music/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/music/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/other/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/other/Meowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/other/TwoWayRoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/other/Way.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/Task6_1__6_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block1/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block1/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block1/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block1/Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block1/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block1/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Cuckoo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Parrot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/PointWithTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Sparrow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block10/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Comments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/HumanWithDad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block2/Track.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Discipline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/RecordBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Track.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block3/Way.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Task4_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Task4_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block4/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/BrokenLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Fraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Pistol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Task5_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Task5_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block5/Task5_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block7/ImmutableArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block7/MutableArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block7/NonExtendableArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block7/Phonebook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block7/Secret.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block7/ValueSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block9/EnclosedBrokenLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block9/Rifle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block9/Task9_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tasks/block9/TimeWithTimeZone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Block6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block1/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block1/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block1/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block1/Name.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block1/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block1/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block10/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/birds/Parrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block10/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block10/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block10/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/weapon/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block2/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Comments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block2/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block2/HumanWithDad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block2/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block2/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block2/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Office.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block3/City.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block3/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/music/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block3/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block3/RecordBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/RecordBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Task4_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Task4_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block4/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/BrokenLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Pistol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/weapon/Pistol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Task5_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Task5_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block5/Task5_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block7/ImmutableArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/block7/ImmutableArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block7/MutableArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/block7/MutableArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block7/NonExtendableArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/block7/NonExtendableArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block7/Phonebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/block7/Phonebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block7/Secret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/block7/Secret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block7/ValueSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/block7/ValueSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block9/EnclosedBrokenLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block9/Rifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/weapon/Rifle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block9/Task9_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/block9/TimeWithTimeZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/TimeWithTimeZone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -295,6 +168,7 @@
       <workItem from="1602428671217" duration="5674000" />
       <workItem from="1602967929389" duration="4955000" />
       <workItem from="1603374484971" duration="26314000" />
+      <workItem from="1603824075757" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
@@ -350,11 +224,6 @@
           <url>file://$PROJECT_DIR$/src/vlasov/geometry/Square.java</url>
           <line>9</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/vlasov/geometry/Square.java</url>
@@ -515,11 +384,6 @@
           <url>file://$PROJECT_DIR$/src/vlasov/block7/Secret.java</url>
           <line>53</line>
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/main/Main.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/vlasov/geometry/Square.java</url>

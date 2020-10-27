@@ -2,7 +2,7 @@ package vlasov.geometry;
 
 //Task4_2
 
-public class Line implements ObjectWithLength, BrokenLines{
+public class Line implements ObjectWithLength, PolygonalChains{
     private Point a;
     private Point b;
 
@@ -39,7 +39,7 @@ public class Line implements ObjectWithLength, BrokenLines{
     }
 
     @Override
-    public PolygonalChain toBrokenLine() {
+    public PolygonalChain getPolygonalChain() {
         return null;
     }
 }

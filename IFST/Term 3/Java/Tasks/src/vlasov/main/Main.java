@@ -7,6 +7,7 @@ import vlasov.other.Cat;
 import vlasov.other.Meowers;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class Main {
         meows(new Cat("imya"), new Cat("kto"));
 
         // 11.5
-        ArrayList<Point> arr = new ArrayList<>();
+        List<Point> arr = new ArrayList<>();
         arr.add(new Point(0,0));
         arr.add(new Point(0,10));
         arr.add(new Point(10,10));
@@ -34,6 +35,14 @@ public class Main {
         // 11.6
         Square square = new Square(new Point(0,10), 15);
         System.out.println(square.getPolygonalChain().getLength());
+
+        // 11.7
+        List<Point> arr2 = new ArrayList<>();
+        arr2.add(new Point(0, -10));
+        arr2.add(new Point(-10,-10));
+        arr2.add(new Point(-10,0));
+        PolygonalChain chain = jointPolygonalChain(new Square(new Point(0,10), 10), new PolygonalChain(arr2));
+        System.out.println(chain.getLength());
     }
 
     // 11.1
