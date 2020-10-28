@@ -2,6 +2,7 @@ package vlasov.geometry;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 //Task5_7
 
@@ -40,5 +41,20 @@ public class PolygonalChain implements ObjectWithLength, PolygonalChains {
     @Override
     public PolygonalChain getPolygonalChain() {
         return this;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        PolygonalChain that = (PolygonalChain) o;
+
+        return Objects.equals(points, that.points);
+    }
+
+    @Override
+    public int hashCode() {
+        return points != null ? points.hashCode() : 0;
     }
 }

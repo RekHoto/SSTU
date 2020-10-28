@@ -7,6 +7,7 @@ import vlasov.other.Cat;
 import vlasov.other.Meowers;
 import vlasov.weapon.*;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -14,7 +15,8 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) {
         // 11.1
-        System.out.println(addition(2, new Fraction(3, 5), 2.3));
+        BigInteger n = new BigInteger("12345678912345678912");
+        System.out.println(addition(2, new Fraction(3, 5), 2.3, n));
 
         // 11.2
         singingBirds(new Sparrow(), new Sparrow(), new Cuckoo(),
@@ -54,14 +56,22 @@ public class Main {
         s2.setWeapon(new Pistol(6));
         Shooter s3 = new Shooter("C");
         s3.setWeapon(new Rifle());
-        s3.getWeapon().reload(30);
+        s3.getWeapon().load(30);
         s1.shoot(); s2.shoot(); s3.shoot();
 
-        // 11.9
-        Fraction f1 = new Fraction(2,5);
-        Fraction f2 = new Fraction(2,5);
-        System.out.println(f1.multiply(f2));
-        System.out.println(f1.equals(s1));
+        // 12.4
+        System.out.println(pow(args));
+
+        // 12.5
+        Point p = null;
+        objectsToString(p, s1, arr2);
+
+        // 12.6
+        Point p1 = new Point(3,5);
+        java.awt.Point p2 = new java.awt.Point(2,5);
+        System.out.println(p1);
+        System.out.println(p2);
+
     }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -115,5 +125,17 @@ public class Main {
             res.addPoints(chain.getPolygonalChain().getPoints());
         }
         return res;
+    }
+
+    //12.4
+    public static int pow(String[] strings) {
+        return (int)Math.pow(Double.parseDouble(strings[0]), Double.parseDouble(strings[1]));
+    }
+
+    //12.5
+    public static void objectsToString(Object... objs) {
+        for (Object obj:objs) {
+            System.out.println(Objects.toString(obj, "Zdes' mog by byt' vash ob'ekt"));
+        }
     }
 }

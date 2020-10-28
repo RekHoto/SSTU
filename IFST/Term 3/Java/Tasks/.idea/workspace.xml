@@ -2,55 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/vlasov/weapon/Shooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/RekHoto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/office/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/office/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/Block6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block10/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block10/PointWithTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Comments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/HumanWithDad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Track.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Discipline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/RecordBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Track.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Way.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block4/Task4_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block4/Task4_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block5/Task5_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block5/Task5_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block5/Task5_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block9/Task9_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block9/TwoWayRoad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/BrokenLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/EnclosedBrokenLine.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/math/Fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Fraction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/TwoWayRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/TwoWayRoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Way.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/Way.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Office.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/weapon/Pistol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/weapon/Pistol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/weapon/Rifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/weapon/Rifle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/weapon/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/weapon/Weapon.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="" />
+  </component>
   <component name="ProjectId" id="1hMH7TXTqGn8jnx6TcOc51GEi8v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -86,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -125,6 +98,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vlasov.main.Main" />
       <module name="Tasks" />
+      <option name="PROGRAM_PARAMETERS" value="2 4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="vlasov.main.*" />
@@ -215,6 +189,7 @@
       <workItem from="1603374484971" duration="26314000" />
       <workItem from="1603824075757" duration="1207000" />
       <workItem from="1603842730050" duration="7050000" />
+      <workItem from="1603900698003" duration="5860000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>

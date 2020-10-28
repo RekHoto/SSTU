@@ -1,6 +1,8 @@
-package vlasov.other;
+/*
+ * Copyright (c) RekHoto 2020.
+ */
 
-//Task5_5
+package vlasov.other;
 
 public final class Fraction extends Number {
     final int num;
@@ -99,6 +101,9 @@ public final class Fraction extends Number {
         if (this == obj) return true;
         if (!(obj instanceof Fraction)) return false;
         Fraction fr = (Fraction) obj;
-        return (this.num == fr.num) && (this.den == fr.den);
+        if (this.num != fr.num) return false;
+        return this.den == fr.den;
     }
+
+
 }

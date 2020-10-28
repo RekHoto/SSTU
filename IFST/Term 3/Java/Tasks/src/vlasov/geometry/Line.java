@@ -2,6 +2,8 @@ package vlasov.geometry;
 
 //Task4_2
 
+import java.util.Objects;
+
 public class Line implements ObjectWithLength, PolygonalChains{
     private Point a;
     private Point b;
@@ -41,5 +43,23 @@ public class Line implements ObjectWithLength, PolygonalChains{
     @Override
     public PolygonalChain getPolygonalChain() {
         return new PolygonalChain(a,b);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Line line = (Line) o;
+
+        if (!Objects.equals(a, line.a)) return false;
+        return Objects.equals(b, line.b);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = a != null ? a.hashCode() : 0;
+        result = 31 * result + (b != null ? b.hashCode() : 0);
+        return result;
     }
 }
