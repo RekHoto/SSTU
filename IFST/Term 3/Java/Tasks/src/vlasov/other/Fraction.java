@@ -93,4 +93,12 @@ public final class Fraction extends Number {
     public double doubleValue() {
         return (double) num / (double) den;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Fraction)) return false;
+        Fraction fr = (Fraction) obj;
+        return (this.num == fr.num) && (this.den == fr.den);
+    }
 }

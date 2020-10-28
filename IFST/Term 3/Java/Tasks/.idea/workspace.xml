@@ -2,10 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/vlasov/weapon/Shooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/Block6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block1/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block10/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block10/PointWithTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/HumanWithDad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Music.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block2/Track.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Discipline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Music.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/RecordBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Track.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block3/Way.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block4/Task4_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block4/Task4_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block5/Task5_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block5/Task5_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block5/Task5_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block9/Task9_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/block9/TwoWayRoad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/BrokenLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/EnclosedBrokenLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/math/Fraction.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/TwoWayRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/TwoWayRoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Way.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/Way.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +214,7 @@
       <workItem from="1602967929389" duration="4955000" />
       <workItem from="1603374484971" duration="26314000" />
       <workItem from="1603824075757" duration="1207000" />
+      <workItem from="1603842730050" duration="7050000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
@@ -220,16 +266,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/Square.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/Square.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/vlasov/block7/NonExtendableArray.java</url>
           <line>58</line>
@@ -384,26 +420,6 @@
           <url>file://$PROJECT_DIR$/src/vlasov/block7/Secret.java</url>
           <line>53</line>
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/Square.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java</url>

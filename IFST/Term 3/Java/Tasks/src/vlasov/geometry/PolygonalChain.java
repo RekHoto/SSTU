@@ -12,6 +12,10 @@ public class PolygonalChain implements ObjectWithLength, PolygonalChains {
         this.points = points;
     }
     public PolygonalChain(){this(new ArrayList<Point>());}
+    public PolygonalChain(Point... points) {
+        this.points = new ArrayList<>();
+        for (Point p:points) addPoint(p);
+    }
 
     public void addPoint(Point p) {
         this.points.add(p);

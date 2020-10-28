@@ -40,6 +40,6 @@ public class Line implements ObjectWithLength, PolygonalChains{
 
     @Override
     public PolygonalChain getPolygonalChain() {
-        return null;
+        return new PolygonalChain(a,b);
     }
 }

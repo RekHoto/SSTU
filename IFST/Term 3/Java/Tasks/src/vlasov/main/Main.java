@@ -5,9 +5,11 @@ import vlasov.birds.*;
 import vlasov.geometry.*;
 import vlasov.other.Cat;
 import vlasov.other.Meowers;
+import vlasov.weapon.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,9 +43,29 @@ public class Main {
         arr2.add(new Point(0, -10));
         arr2.add(new Point(-10,-10));
         arr2.add(new Point(-10,0));
-        PolygonalChain chain = jointPolygonalChain(new Square(new Point(0,10), 10), new PolygonalChain(arr2));
+        PolygonalChain chain = jointPolygonalChain(new Square(new Point(0,10), 10),
+                new PolygonalChain(arr2),
+                new Line(-10,10,-10,20));
         System.out.println(chain.getLength());
+
+        // 11.8
+        Shooter s1 = new Shooter("A");
+        Shooter s2 = new Shooter("B");
+        s2.setWeapon(new Pistol(6));
+        Shooter s3 = new Shooter("C");
+        s3.setWeapon(new Rifle());
+        s3.getWeapon().reload(30);
+        s1.shoot(); s2.shoot(); s3.shoot();
+
+        // 11.9
+        Fraction f1 = new Fraction(2,5);
+        Fraction f2 = new Fraction(2,5);
+        System.out.println(f1.multiply(f2));
+        System.out.println(f1.equals(s1));
     }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // 11.1
     public static double addition(Number... nums) {
@@ -86,7 +108,7 @@ public class Main {
         return res;
     }
 
-    // 11.6
+    // 11.7
     public static PolygonalChain jointPolygonalChain(PolygonalChains... chains) {
         PolygonalChain res = new PolygonalChain();
         for (PolygonalChains chain:chains) {
