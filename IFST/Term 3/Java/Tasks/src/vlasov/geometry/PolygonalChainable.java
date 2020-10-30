@@ -1,5 +1,5 @@
 package vlasov.geometry;
 
-public interface PolygonalChains {
+public interface PolygonalChainable {
     public PolygonalChain getPolygonalChain();
 }

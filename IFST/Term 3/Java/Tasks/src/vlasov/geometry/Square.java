@@ -1,6 +1,6 @@
 package vlasov.geometry;
 
-public class Square extends Shape implements PolygonalChains {
+public class Square extends Shape implements PolygonalChainable {
     private Point origin;
     private int side;
 

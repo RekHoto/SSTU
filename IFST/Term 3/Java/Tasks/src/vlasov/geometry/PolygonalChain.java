@@ -6,7 +6,7 @@ import java.util.Objects;
 
 //Task5_7
 
-public class PolygonalChain implements ObjectWithLength, PolygonalChains {
+public class PolygonalChain implements ObjectWithLength, PolygonalChainable {
     List<Point> points;
 
     public PolygonalChain(List<Point> points) {

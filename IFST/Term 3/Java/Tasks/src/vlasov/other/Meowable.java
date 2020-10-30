@@ -1,5 +1,5 @@
 package vlasov.other;
 
-public interface Meowers {
+public interface Meowable {
     public void meow();
 }

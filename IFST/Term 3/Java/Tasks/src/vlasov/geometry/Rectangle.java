@@ -1,6 +1,6 @@
 package vlasov.geometry;
 
-class Rectangle extends Shape implements PolygonalChains {
+class Rectangle extends Shape implements PolygonalChainable {
     private Point origin;
     private int side1;
     private int side2;

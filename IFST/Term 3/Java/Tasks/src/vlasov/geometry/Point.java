@@ -2,7 +2,7 @@ package vlasov.geometry;
 
 //Task4_1
 
-public class Point {
+public class Point implements Cloneable {
     int x;
     int y;
 
@@ -44,5 +44,10 @@ public class Point {
         int result = x;
         result = 31 * result + y;
         return result;
+    }
+
+    @Override
+    public Point clone() throws CloneNotSupportedException {
+        return (Point)super.clone();
     }
 }

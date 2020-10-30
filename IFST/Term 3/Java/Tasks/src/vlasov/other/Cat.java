@@ -2,7 +2,7 @@ package vlasov.other;
 
 //Task5_2
 
-public class Cat implements Meowers{
+public class Cat implements Meowable {
     String name;
 
     public Cat(String name) {

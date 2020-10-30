@@ -1,6 +1,6 @@
 package vlasov.geometry;
 
-class Triangle extends Shape implements PolygonalChains{
+class Triangle extends Shape implements PolygonalChainable {
     private Point point1;
     private Point point2;
     private Point point3;

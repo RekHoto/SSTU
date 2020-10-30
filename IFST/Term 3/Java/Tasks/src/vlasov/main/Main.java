@@ -4,7 +4,7 @@ import vlasov.other.Fraction;
 import vlasov.birds.*;
 import vlasov.geometry.*;
 import vlasov.other.Cat;
-import vlasov.other.Meowers;
+import vlasov.other.Meowable;
 import vlasov.weapon.*;
 
 import java.math.BigInteger;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         // 11.1
         BigInteger n = new BigInteger("12345678912345678912");
         System.out.println(addition(2, new Fraction(3, 5), 2.3, n));
@@ -72,6 +72,26 @@ public class Main {
         System.out.println(p1);
         System.out.println(p2);
 
+        // 13.4
+        Fraction f1 = new Fraction(2,5);
+        Fraction f2 = f1.clone();
+        System.out.println(f1);
+        System.out.println(f2);
+
+        // 13.5
+        Point po1 = new Point(2,5);
+        Point po2 = po1.clone();
+        po1.setX(4);
+        System.out.println(po1);
+        System.out.println(po2);
+
+        // 13.6
+        Line l1 = new Line(new Point(1,1), new Point(0,0));
+        Line l2 = l1.clone();
+        l1.setA(3,3);
+        l2.setB(10,10);
+        System.out.println(l1);
+        System.out.println(l2);
     }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -103,8 +123,8 @@ public class Main {
     }
 
     // 11.4
-    public static void meows(Meowers... meowers) {
-        for (Meowers m:meowers) {
+    public static void meows(Meowable... meowers) {
+        for (Meowable m:meowers) {
             m.meow();
         }
     }
@@ -119,9 +139,9 @@ public class Main {
     }
 
     // 11.7
-    public static PolygonalChain jointPolygonalChain(PolygonalChains... chains) {
+    public static PolygonalChain jointPolygonalChain(PolygonalChainable... chains) {
         PolygonalChain res = new PolygonalChain();
-        for (PolygonalChains chain:chains) {
+        for (PolygonalChainable chain:chains) {
             res.addPoints(chain.getPolygonalChain().getPoints());
         }
         return res;

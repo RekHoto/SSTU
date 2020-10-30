@@ -4,7 +4,7 @@
 
 package vlasov.other;
 
-public final class Fraction extends Number {
+public final class Fraction extends Number implements Cloneable {
     final int num;
     final int den;
 
@@ -105,5 +105,8 @@ public final class Fraction extends Number {
         return this.den == fr.den;
     }
 
-
+    @Override
+    public Fraction clone() throws CloneNotSupportedException {
+        return (Fraction)super.clone();
+    }
 }

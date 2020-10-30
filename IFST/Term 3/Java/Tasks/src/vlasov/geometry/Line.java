@@ -4,7 +4,7 @@ package vlasov.geometry;
 
 import java.util.Objects;
 
-public class Line implements ObjectWithLength, PolygonalChains{
+public class Line implements ObjectWithLength, PolygonalChainable, Cloneable{
     private Point a;
     private Point b;
 
@@ -61,5 +61,10 @@ public class Line implements ObjectWithLength, PolygonalChains{
         int result = a != null ? a.hashCode() : 0;
         result = 31 * result + (b != null ? b.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public Line clone() throws CloneNotSupportedException {
+        return (Line)super.clone();
     }
 }

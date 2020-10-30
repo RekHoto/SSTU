@@ -2,13 +2,13 @@ package cities;
 
 import java.util.ArrayList;
 
-public class TwoWayRoad extends City {
+public class CityTwoWayRoad extends City {
 
-    public TwoWayRoad(String name, ArrayList<Way> ways) {
+    public CityTwoWayRoad(String name, ArrayList<Way> ways) {
         super(name, ways);
     }
 
-    public TwoWayRoad(String name) {
+    public CityTwoWayRoad(String name) {
         this(name, null);
     }
 

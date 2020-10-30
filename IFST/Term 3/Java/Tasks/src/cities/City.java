@@ -3,18 +3,16 @@ package cities;
 //Task3_3
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class City {
     String name;
-    ArrayList<Way> ways;
+    List<Way> ways = new ArrayList<>();
 
-    public City(String name, ArrayList<Way> ways) {
+    public City(String name) {
         this.name = name;
-        this.ways = ways == null ? new ArrayList<Way>() : ways;
     }
-
     City(){}
-    City(String name){this(name, null);}
     public void addWay(Way way) {
         if (ways.contains(way)) throw new RuntimeException();
         ways.add(way);
