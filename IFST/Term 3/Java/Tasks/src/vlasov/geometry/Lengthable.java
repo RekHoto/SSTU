@@ -1,5 +1,5 @@
 package vlasov.geometry;
 
-public interface ObjectWithLength {
+public interface Lengthable {
     public double getLength();
 }

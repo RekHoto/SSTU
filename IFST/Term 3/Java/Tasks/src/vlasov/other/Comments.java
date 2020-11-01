@@ -36,12 +36,7 @@ public class Comments {
 
     }
     public Comments getResponse(int i) {
-        try {
-            return response.get(i);
-        } catch (IndexOutOfBoundsException e) {
-            e.printStackTrace();
-            return null;
-        }
+        return response.get(i);
     }
 
     public String toString() {

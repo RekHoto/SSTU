@@ -2,29 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/vlasov/itmo/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/itmo/SumOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/itmo/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/cities/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/cities/TwoWayRoad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/cities/Way.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/EnclosedPolygonalChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/EnclosedPolygonalChain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/ObjectWithLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Triangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Fraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/weapon/Pistol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/weapon/Pistol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/weapon/Rifle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/weapon/Rifle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/weapon/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/weapon/Weapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cities/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cities/TwoWayRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cities/CityTwoWayRoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Comments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Meowers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cities/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/cities/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cities/CityTwoWayRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/cities/CityTwoWayRoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cities/Way.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/cities/Way.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/ObjectWithLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Lengthable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChainable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/geometry/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Meowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Meowable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/people/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -402,8 +415,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/vlasov/main/Main.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

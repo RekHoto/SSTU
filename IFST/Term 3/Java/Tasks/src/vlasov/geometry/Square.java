@@ -1,5 +1,8 @@
 package vlasov.geometry;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Square extends Shape implements PolygonalChainable {
     private Point origin;
     private int side;
@@ -25,12 +28,10 @@ public class Square extends Shape implements PolygonalChainable {
     }
 
     public PolygonalChain getPolygonalChain() {
-        PolygonalChain res = new EnclosedPolygonalChain();
-        res.addPoint(origin);
-        res.addPoint(new Point(origin.getX() + side, origin.getY()));
-        res.addPoint(new Point(origin.getX() + side, origin.getY() - side));
-        res.addPoint(new Point(origin.getX(), origin.getY() - side));
-        return res;
+        return new EnclosedPolygonalChain(new ArrayList<>(Arrays.asList(origin,
+                new Point(origin.getX() + side, origin.getY()),
+                new Point(origin.getX() + side, origin.getY() - side),
+                new Point(origin.getX(), origin.getY() - side))));
     }
     @Override
     public double getArea() {

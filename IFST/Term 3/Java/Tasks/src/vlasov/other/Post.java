@@ -52,14 +52,9 @@ public class Post {
         return changeable;
     }
 
-    public void changeText(String text) {
-        try {
-            if (!changeable) throw new AttributeInUseException("Нельзя");
-            this.text = text;
-        } catch (AttributeInUseException e) {
-            e.printStackTrace();
-        }
-
+    public void changeText(String text) throws AttributeInUseException {
+        if (!changeable) throw new AttributeInUseException("Нельзя");
+        this.text = text;
     }
 
     public String toString() {

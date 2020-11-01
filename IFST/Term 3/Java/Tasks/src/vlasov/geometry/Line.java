@@ -4,7 +4,7 @@ package vlasov.geometry;
 
 import java.util.Objects;
 
-public class Line implements ObjectWithLength, PolygonalChainable, Cloneable{
+public class Line implements Lengthable, PolygonalChainable, Cloneable{
     private Point a;
     private Point b;
 

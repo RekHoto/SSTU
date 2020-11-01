@@ -8,38 +8,22 @@ public class Name {
     private String pat;
 
     public Name(String fname, String sname, String pat) {
-        try {
-            if (fname == null || fname == "") throw new IllegalArgumentException("Имя не может быть пустым");
-            this.fname = fname;
-            this.sname = sname;
-            this.pat = pat;
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+        if (fname == null || fname == "") throw new IllegalArgumentException("Имя не может быть пустым");
+        this.fname = fname;
+        this.sname = sname;
+        this.pat = pat;
     }
     public void setFname(String fname) {
-        try {
-            if (fname == null || fname == "") throw new IllegalArgumentException("Имя не может быть пустым");
-            this.fname = fname;
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+        if (fname == null || fname == "") throw new IllegalArgumentException("Имя не может быть пустым");
+        this.fname = fname;
     }
     public void setSname(String sname) {
-        try {
-            if (sname == null || sname == "") throw new IllegalArgumentException("Фамилия не может быть пустой");
-            this.sname = sname;
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+        if (sname == null || sname == "") throw new IllegalArgumentException("Фамилия не может быть пустой");
+        this.sname = sname;
     }
     public void setPat(String pat) {
-        try {
-            if (pat == null || pat == "") throw new IllegalArgumentException("Отчество не может быть пустым");
-            this.pat = pat;
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+        if (pat == null || pat == "") throw new IllegalArgumentException("Отчество не может быть пустым");
+        this.pat = pat;
     }
 
     public String getFname() {

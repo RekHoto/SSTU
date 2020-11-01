@@ -1,4 +1,4 @@
-package cities;
+package vlasov.cities;
 
 public class Way {
     private City dest;

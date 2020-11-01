@@ -1,14 +1,17 @@
 package vlasov.main;
 
-import vlasov.other.Fraction;
+import vlasov.cities.*;
+import vlasov.geometry.Point;
+import vlasov.itmo.*;
+import vlasov.other.*;
 import vlasov.birds.*;
 import vlasov.geometry.*;
-import vlasov.other.Cat;
-import vlasov.other.Meowable;
 import vlasov.weapon.*;
 
+import java.io.FileNotFoundException;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
@@ -29,10 +32,7 @@ public class Main {
         meows(new Cat("imya"), new Cat("kto"));
 
         // 11.5
-        List<Point> arr = new ArrayList<>();
-        arr.add(new Point(0,0));
-        arr.add(new Point(0,10));
-        arr.add(new Point(10,10));
+        List<Point> arr = new ArrayList<>(Arrays.asList(new Point(0,0), new Point(0,10),new Point(10,10)));
         System.out.println(sumOfLengths(new Line(new Point(0,0), new Point(0,10)),
                 new PolygonalChain(arr)));
 
@@ -58,6 +58,20 @@ public class Main {
         s3.setWeapon(new Rifle());
         s3.getWeapon().load(30);
         s1.shoot(); s2.shoot(); s3.shoot();
+
+        // 11.9
+        City c1 = new CityTwoWayRoad("A");
+        City c2 = new City("B");
+        City c3 = new City("C");
+        City c4 = new CityTwoWayRoad("D");
+        City c5 = new City("E");
+        c1.addWay(new Way(c2, 1));
+        c1.addWay(new Way(c3,1));
+        c2.addWay(new Way(c3,1));
+        c4.addWay(new Way(c2,1));
+        c4.addWay(new Way(c5,1));
+        c5.addWay(new Way(c3,1));
+        System.out.println(c1 + "\n" + c2 + "\n" + c3 + "\n" + c4 + "\n" + c5);
 
         // 12.4
         System.out.println(pow(args));
@@ -92,6 +106,14 @@ public class Main {
         l2.setB(10,10);
         System.out.println(l1);
         System.out.println(l2);
+
+
+        //itmoha
+        try {
+            Reverse.reverse();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -130,9 +152,9 @@ public class Main {
     }
 
     // 11.5
-    public static double sumOfLengths(ObjectWithLength... objs) {
+    public static double sumOfLengths(Lengthable... objs) {
         double res = 0;
-        for (ObjectWithLength obj:objs) {
+        for (Lengthable obj:objs) {
             res += obj.getLength();
         }
         return res;

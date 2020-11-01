@@ -6,15 +6,13 @@ import java.util.Objects;
 
 //Task5_7
 
-public class PolygonalChain implements ObjectWithLength, PolygonalChainable {
-    List<Point> points;
+public class PolygonalChain implements Lengthable, PolygonalChainable {
+    List<Point> points = new ArrayList<>();
 
     public PolygonalChain(List<Point> points) {
-        this.points = points;
+        this.points.addAll(points);
     }
-    public PolygonalChain(){this(new ArrayList<Point>());}
     public PolygonalChain(Point... points) {
-        this.points = new ArrayList<>();
         for (Point p:points) addPoint(p);
     }
 
@@ -46,10 +44,8 @@ public class PolygonalChain implements ObjectWithLength, PolygonalChainable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
+        if (!(o instanceof PolygonalChain)) return false;
         PolygonalChain that = (PolygonalChain) o;
-
         return Objects.equals(points, that.points);
     }
 

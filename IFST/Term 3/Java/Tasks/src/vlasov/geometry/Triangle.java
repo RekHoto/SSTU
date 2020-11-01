@@ -1,5 +1,7 @@
 package vlasov.geometry;
 
+import java.util.Arrays;
+
 class Triangle extends Shape implements PolygonalChainable {
     private Point point1;
     private Point point2;
@@ -24,10 +26,6 @@ class Triangle extends Shape implements PolygonalChainable {
 
     @Override
     public PolygonalChain getPolygonalChain() {
-        PolygonalChain res = new PolygonalChain();
-        res.addPoint(point1);
-        res.addPoint(point2);
-        res.addPoint(point3);
-        return res;
+        return new PolygonalChain(Arrays.asList(point1, point2, point3));
     }
 }

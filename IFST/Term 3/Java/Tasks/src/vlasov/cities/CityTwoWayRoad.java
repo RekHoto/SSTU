@@ -1,16 +1,11 @@
-package cities;
-
-import java.util.ArrayList;
+package vlasov.cities;
 
 public class CityTwoWayRoad extends City {
 
-    public CityTwoWayRoad(String name, ArrayList<Way> ways) {
-        super(name, ways);
+    public CityTwoWayRoad(String name) {
+        super(name);
     }
 
-    public CityTwoWayRoad(String name) {
-        this(name, null);
-    }
 
     @Override
     public void addWay(Way way) {

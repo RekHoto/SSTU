@@ -38,25 +38,16 @@ public class Student {
         this.marks = new ArrayList<Integer>();
     }
     public void addMark(int m) {
-        try {
-            if (m < 2 || m > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
-            this.marks.add(m);
-        } catch (IllegalArgumentException e){
-            e.printStackTrace();
-        }
-
+        if (m < 2 || m > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
+        this.marks.add(m);
     }
 
     public void setMarks(ArrayList<Integer> marks) {
-        try {
-            this.marks = new ArrayList<Integer>();
-            for (int i = 0; i < marks.size(); i++) {
-                if (marks.get(i) < 2 || marks.get(i) > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
-            }
-            this.marks.addAll(marks);
-        } catch (IllegalArgumentException e) {
-            e.printStackTrace();
+        this.marks = new ArrayList<Integer>();
+        for (int i = 0; i < marks.size(); i++) {
+            if (marks.get(i) < 2 || marks.get(i) > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
         }
+        this.marks.addAll(marks);
     }
 
     public String toString() {

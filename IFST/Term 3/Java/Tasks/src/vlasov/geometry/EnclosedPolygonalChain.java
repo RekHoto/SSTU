@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 //Task9_1
 
-public class EnclosedPolygonalChain extends PolygonalChain implements ObjectWithLength{
+public class EnclosedPolygonalChain extends PolygonalChain implements Lengthable {
 
     public EnclosedPolygonalChain(ArrayList<Point> points) {
         super(points);
     }
+    public EnclosedPolygonalChain(PolygonalChain pc) {super(pc.getPoints());}
     public EnclosedPolygonalChain() {
         super();
     }

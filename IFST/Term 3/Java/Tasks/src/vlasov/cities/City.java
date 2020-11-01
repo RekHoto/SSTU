@@ -1,9 +1,10 @@
-package cities;
+package vlasov.cities;
 
 //Task3_3
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class City {
     String name;
@@ -24,5 +25,18 @@ public class City {
         }
 
         return str;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof City)) return false;
+        City city = (City) o;
+        return Objects.equals(ways, city.ways);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, ways);
     }
 }
