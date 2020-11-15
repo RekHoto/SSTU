@@ -1,22 +1,15 @@
 package vlasov.main;
 
-import vlasov.cities.*;
-import vlasov.geometry.Point;
-import vlasov.itmo.*;
 import vlasov.other.*;
 import vlasov.birds.*;
 import vlasov.geometry.*;
-import vlasov.weapon.*;
+import vlasov.people.Student;
 
-import java.io.FileNotFoundException;
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
+/*
         // 11.1
         BigInteger n = new BigInteger("12345678912345678912");
         System.out.println(addition(2, new Fraction(3, 5), 2.3, n));
@@ -108,13 +101,54 @@ public class Main {
         System.out.println(l2);
 
 
-        //itmoha
-        try {
-            Reverse.reverse();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+
+        Name n = Name.getBuilder().setFname("a").setPat("b").getName();
+        System.out.println(n);
+
+ */
+        Student<Integer> st1 = new Student<>("st1", x->(x >= 2 && x <= 5), 5, 5, 4, 2, 5, 5);
+        Student<Integer> st3 = new Student<>("st1", x->(x >= 2 && x <= 5), 5, 5, 4, 2, 4, 4);
+        Student<Integer> st2 = new Student<>("st1", x->(x >= 2 && x <= 5), 5, 5, 4, 2, 3, 3);
+        Student<Integer> st4 = new Student<>("st1", x->(x >= 2 && x <= 5), 5, 5, 4, 2, 2, 2);
+        Comparator<Student<Integer>> c = (o1, o2) -> {
+            double avg1 = o1.getMarks().stream().mapToInt(x->x).average().getAsDouble();
+            double avg2 = o2.getMarks().stream().mapToInt(x->x).average().getAsDouble();
+            return Double.compare(avg1, avg2);
+        };
+        List<Student<Integer>> list = new ArrayList<>(Arrays.asList(st1, st2, st3, st4));
+        list.sort(c);
+
+        Fraction f1 = new Fraction(5, 0);
+        System.out.println(f1.intValue());
+        /* itmoha
+        Paragraph p = new Paragraph(List.of(
+                new Strong(List.of(
+                        new Text("1"),
+                        new Strikeout(List.of(
+                                new Text("2"),
+                                new Emphasis(List.of(
+                                        new Text("3"),
+                                        new Text("4")
+                                )),
+                                new Text("5")
+                        )),
+                        new Text("6")
+                ))
+        ));
+        StringBuilder s = new StringBuilder();
+        p.toHtml(s);
+        System.out.println(s);
+
+        final Game game = new Game(new Player(), new Player(), true);
+        int result;
+        do {
+            result = game.play(new Board());
+            System.out.println("Game result: " + result);
+        } while (result != 0);
+
+         */
     }
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -180,4 +214,12 @@ public class Main {
             System.out.println(Objects.toString(obj, "Zdes' mog by byt' vash ob'ekt"));
         }
     }
+
+    // something
+    public static List<CloneableMethod> cloneAll(CloneableMethod... objs) {
+        List<CloneableMethod> res = new ArrayList<>();
+        for (CloneableMethod obj : objs) res.add(obj.clone());
+        return res;
+    }
+
 }

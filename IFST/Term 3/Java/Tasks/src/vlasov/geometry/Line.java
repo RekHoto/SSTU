@@ -12,7 +12,9 @@ public class Line implements Lengthable, PolygonalChainable, Cloneable{
         this.a = new Point(x1, y1);
         this.b = new Point(x2, y2);
     }
+
     public Line(Point a, Point b) {
+        
         this.a = new Point(a.x, a.y);
         this.b = new Point(b.x, b.y);
     }

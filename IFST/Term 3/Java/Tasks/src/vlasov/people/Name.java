@@ -7,7 +7,7 @@ public class Name {
     private String sname;
     private String pat;
 
-    public Name(String fname, String sname, String pat) {
+    private Name(String fname, String sname, String pat) {
         if (fname == null || fname == "") throw new IllegalArgumentException("Имя не может быть пустым");
         this.fname = fname;
         this.sname = sname;
@@ -36,17 +36,35 @@ public class Name {
         return pat;
     }
 
-    public Name(String fname) {
-        this(fname, null,null);
+    public static NameBuildable getBuilder() {
+        return new NameBuilder();
     }
 
-    public Name(String fname, String sname) {
-        this(fname, sname, null);
-    }
+    static class NameBuilder implements NameBuildable {
+        private String fname;
+        private String sname;
+        private String pat;
 
+        public NameBuilder setFname(String fname) {
+            this.fname = fname;
+            return this;
+        }
+        public NameBuilder setSname(String sname) {
+            this.sname = sname;
+            return this;
+        }
+        public NameBuilder setPat(String pat) {
+            this.pat = pat;
+            return this;
+        }
+        public Name getName() {
+            return new Name(this.fname, this.sname, this.pat);
+        }
+    }
     public String toString() {
         return ((sname != null ? sname + ' ' : "")
                 + (fname != null ? fname + ' ' : "")
                 + (pat != null ? pat + ' ' : "")).trim();
     }
 }
+

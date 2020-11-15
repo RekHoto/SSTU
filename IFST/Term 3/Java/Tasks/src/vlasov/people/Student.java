@@ -1,54 +1,38 @@
 package vlasov.people;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-//Task3_1
-
-public class Student {
+public class Student<T> implements Comparable<Student<T>> {
     private String name;
-    private ArrayList<Integer> marks;
+    private ArrayList<T> marks;
+    private Checker<T> checker;
 
-    public void copyMarks(ArrayList<Integer> arr) {
-        this.marks = new ArrayList<Integer>(arr.size());
+    public void copyMarks(ArrayList<T> arr) {
+        this.marks = new ArrayList<T>(arr.size());
         this.marks.addAll(arr);
     }
 
-    double avrgMark() {
-        if (marks == null) {
-            return 0;
-        } else {
-            double avrg = 0;
-            for (int i = 0; i < marks.size(); i++) {
-                avrg += marks.get(i);
-            }
-            avrg /= marks.size();
-            return avrg;
-        }
-    }
-    public String isExcSt() {
-        String str = "";
-        double avrg = avrgMark();
-        str += "Средняя оценка: " + avrg + ", ";
-        if (avrg == 5.0) {str += "отличник";} else {str += "не отличник";}
-        return str;
+    public ArrayList<T> getMarks() {
+        return marks;
     }
 
-    public Student(String name) {
+    public void setMarks(ArrayList<T> marks) {
+        this.marks = marks;
+    }
+
+    public Student(String name, Checker<T> checker, T... marks) {
         this.name = name;
-        this.marks = new ArrayList<Integer>();
+        for (T mark : marks)
+            if (!checker.isValid(mark)) throw new IllegalArgumentException();
+        this.marks = new ArrayList<T>();
+        this.marks.addAll(Arrays.asList(marks));
     }
-    public void addMark(int m) {
-        if (m < 2 || m > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
-        this.marks.add(m);
+    public void addMark(T mark) {
+        if (!checker.isValid(mark)) throw new IllegalArgumentException();
+        this.marks.add(mark);
     }
 
-    public void setMarks(ArrayList<Integer> marks) {
-        this.marks = new ArrayList<Integer>();
-        for (int i = 0; i < marks.size(); i++) {
-            if (marks.get(i) < 2 || marks.get(i) > 5) throw new IllegalArgumentException("Оценка не может быть <2 или >5");
-        }
-        this.marks.addAll(marks);
-    }
 
     public String toString() {
         String str = name + ": ";
@@ -57,4 +41,10 @@ public class Student {
         }
         return str;
     }
+
+    public int compareTo(Student<T> student) {
+        int res = this.marks.size() - student.marks.size();
+        return Integer.compare(0, res);
+    }
+
 }

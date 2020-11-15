@@ -36,12 +36,12 @@ public class Human {
 
 
 
-    Human(String fname, int height) {
-        this(new Name(fname), height, null);
-    }
-    Human(String fname, int height, Human dad) {
-        this(new Name(fname, dad.name.getSname(), dad.name.getFname() + "ович"), height, new Human(dad.getName(), dad.getHeight(), dad.getDad()));
-    }
+//    Human(String fname, int height) {
+//        this(new Name(fname), height, null);
+//    }
+//    Human(String fname, int height, Human dad) {
+//        this(new Name(fname, dad.name.getSname(), dad.name.getFname() + "ович"), height, new Human(dad.getName(), dad.getHeight(), dad.getDad()));
+//    }
     Human(Name name, int height) {
         this(name, height, null);
     }

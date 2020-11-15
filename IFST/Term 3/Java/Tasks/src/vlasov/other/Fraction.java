@@ -9,7 +9,6 @@ public final class Fraction extends Number implements Cloneable {
     final int den;
 
     public Fraction(int num, int den) {
-        if (den == 0) throw new IllegalArgumentException();
         if (den < 0) {
             this.num = -num;
             this.den = -den;
@@ -78,12 +77,13 @@ public final class Fraction extends Number implements Cloneable {
 
     @Override
     public int intValue() {
+        if (den == 0) throw new FractionException("Не может быть представлена в виде int/long", new ArithmeticException());
         return num / den;
     }
 
     @Override
     public long longValue() {
-        return (long)num / (long)den;
+        return intValue();
     }
 
     @Override

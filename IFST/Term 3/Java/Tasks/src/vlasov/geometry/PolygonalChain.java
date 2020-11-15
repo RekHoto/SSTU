@@ -4,24 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-//Task5_7
-
 public class PolygonalChain implements Lengthable, PolygonalChainable {
     List<Point> points = new ArrayList<>();
 
     public PolygonalChain(List<Point> points) {
         this.points.addAll(points);
     }
+
     public PolygonalChain(Point... points) {
-        for (Point p:points) addPoint(p);
+        for (Point p : points) addPoint(p);
     }
 
     public void addPoint(Point p) {
         this.points.add(p);
     }
+
     public void addPoints(List<Point> arr) {
         points.addAll(arr);
     }
+
     public List<Point> getPoints() {
         return points;
     }
@@ -30,7 +31,7 @@ public class PolygonalChain implements Lengthable, PolygonalChainable {
         if (points.size() < 2) return 0;
         double length = 0;
         for (int i = 1; i < points.size(); i++) {
-            Line line = new Line(points.get(i-1), points.get(i));
+            Line line = new Line(points.get(i - 1), points.get(i));
             length += line.getLength();
         }
         return length;
