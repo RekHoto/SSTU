@@ -16,4 +16,9 @@ public class Strikeout extends AbstractMarkupElement {
     public void toHtml(StringBuilder s) {
         super.toHtml(s, "<s>", "</s>");
     }
+
+    @Override
+    public void toTex(StringBuilder s) {
+        super.toTex(s, "\\textst{", "}");
+    }
 }

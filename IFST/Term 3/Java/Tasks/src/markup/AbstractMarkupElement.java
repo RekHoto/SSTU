@@ -26,4 +26,12 @@ public abstract class AbstractMarkupElement implements Markable {
         }
         s.append(r);
     }
+    public void toTex(StringBuilder s, String l, String r) {
+        s.append(l);
+        for (Markable element : elements) {
+            element.toTex(s);
+        }
+        s.append(r);
+    }
+
 }

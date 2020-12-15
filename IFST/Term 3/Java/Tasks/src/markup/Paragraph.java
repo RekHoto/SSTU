@@ -16,4 +16,9 @@ public class Paragraph extends AbstractMarkupElement {
     public void toHtml(StringBuilder s) {
         super.toHtml(s, "", "");
     }
+
+    @Override
+    public void toTex(StringBuilder s) {
+        super.toTex(s, "", "");
+    }
 }

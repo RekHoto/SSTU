@@ -16,4 +16,9 @@ public class Strong extends AbstractMarkupElement {
     public void toHtml(StringBuilder s) {
         super.toHtml(s, "<strong>", "</strong>");
     }
+
+    @Override
+    public void toTex(StringBuilder s) {
+        super.toTex(s, "\\textbf{", "}");
+    }
 }

@@ -29,10 +29,6 @@ public class Album {
     }
 
     public void addTrack(Track t) {
-        try {
-            if (t.getAlbum() != null) throw new AttributeInUseException("Альбом уже есть");
-        } catch (AttributeInUseException e) {
-            e.printStackTrace();
-        }
+        if (t.getAlbum() != null) throw new IllegalArgumentException("Альбом уже есть");
     }
 }

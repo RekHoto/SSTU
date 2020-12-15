@@ -3,8 +3,6 @@ package vlasov.music;
 import vlasov.music.Album;
 import javax.naming.directory.AttributeInUseException;
 
-//Task3_4
-
 public class Track {
     private String name;
     private String author;
@@ -35,12 +33,8 @@ public class Track {
     }
 
     public void setAlbum(Album album) {
-        try {
-            if (album != null) throw new AttributeInUseException("Альбом уже есть");
-            this.album = album;
-        } catch (AttributeInUseException e) {
-            e.printStackTrace();
-        }
+        if (this.album != null) throw new IllegalArgumentException("Альбом уже есть");
+        this.album = album;
     }
 
     public String toString() {

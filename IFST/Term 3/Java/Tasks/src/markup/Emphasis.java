@@ -16,4 +16,9 @@ public class Emphasis extends AbstractMarkupElement {
     public void toHtml(StringBuilder s) {
         super.toHtml(s, "<em>", "</em>");
     }
+
+    @Override
+    public void toTex(StringBuilder s) {
+        super.toTex(s, "\\emph{", "}");
+    }
 }

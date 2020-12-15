@@ -18,4 +18,9 @@ public class Text implements Markable {
     public void toHtml(StringBuilder s) {
         s.append(text);
     }
+
+    @Override
+    public void toTex(StringBuilder s) {
+        s.append("\\item" + text);
+    }
 }
