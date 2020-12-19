@@ -2,90 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e87272-1ddc-46f4-8613-b8b4ce565f32" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/markup/OrderedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/animals/Gavkable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/animals/Kotopes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/animals/Pes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/doors/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/doors/Prize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/EnclosedPolygonalChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/GroupMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Moveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/other/MyModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/other/Returner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/Combo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/Hit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/JumpKick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/JumpKick2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/Karatist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/Kick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/karate/Punch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vlasov/people/students/CtrlZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/converter/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/converter/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vlasov/people/students/Save.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/AbstractMarkupElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/AbstractMarkupElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/Emphasis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/Emphasis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/Markable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/Markable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/Paragraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/Paragraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/Strikeout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/Strikeout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/Strong.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/Strong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/markup/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/markup/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/tictactoe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/tictactoe/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/CloneableMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/EnclosedPolygonalChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Lengthable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/PolygonalChainable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/geometry/Triangle.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/music/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/music/Album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/music/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/music/Track.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/office/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/office/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Fraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/FractionException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/other/Meowable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Checker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/AbstractMarkupElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/AbstractMarkupElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Emphasis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Emphasis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Markable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Markable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Strikeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Strikeout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Strong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Strong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markup/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/markup/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tictactoe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tictactoe/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/EnclosedPolygonalChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Lengthable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Lengthable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/PolygonalChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/PolygonalChainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/PolygonalChainable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/geometry/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/geometry/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/MeowCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/MeowCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/StringL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/main/StringL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/students/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/vlasov/people/students/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vlasov/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/music/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/music/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/music/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/music/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/office/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/office/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/office/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/office/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/CloneableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/other/CloneableMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/FractionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/math/FractionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/other/Meowable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/animals/Meowable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/people/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/students/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vlasov/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/students/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/people/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vlasov/people/students/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vlasov/people/students/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -292,7 +220,10 @@
       <workItem from="1606876441674" duration="16077000" />
       <workItem from="1607487298816" duration="12604000" />
       <workItem from="1607919547621" duration="3407000" />
-      <workItem from="1608011663226" duration="1743000" />
+      <workItem from="1608011663226" duration="2951000" />
+      <workItem from="1608094714091" duration="2705000" />
+      <workItem from="1608101087087" duration="3738000" />
+      <workItem from="1608351197437" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1599987471867</created>
@@ -578,21 +509,6 @@
           <url>file://$PROJECT_DIR$/src/ReverseAvg.java</url>
           <line>42</line>
           <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/people/students/Student.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/people/students/Student.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/vlasov/people/students/Student.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

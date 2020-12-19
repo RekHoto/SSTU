@@ -1,10 +1,12 @@
 package vlasov.main;
 
+import vlasov.people.Name;
 import vlasov.people.karate.*;
 import vlasov.animals.Meowable;
 import vlasov.other.*;
 import vlasov.birds.*;
 import vlasov.math.geometry.*;
+import vlasov.people.students.Save;
 import vlasov.people.students.Student;
 
 import java.util.*;
@@ -24,15 +26,17 @@ public class Main {
         Combo combo = new Combo(Karatist::jumpKick, x->x.jumpKick(),Karatist::kick, JumpKick.INSTANCE, JumpKick2.INSTANCE);
         combo.execute(k);
 
-        Student<Integer> s = new Student<>("a", x -> x <= 5 && x >= 2, 2, 3, 4, 5);
-        s.addMarks(3, 3, 3);
-        s.setName("b");
-        System.out.println(s);
-        s.undo();
-        s.undo();
-        System.out.println(s);
-//
-//        System.out.println(method3(Arrays.asList(3, 4, 5, 1), (x, y)->x + y * 2));
+        Student<Integer> s1 = new Student<>("a", x -> x <= 5 && x >= 2, 2, 4, 4, 3, 5);
+        Save save = s1.saveState();
+        s1.addMarks(2, 3);
+        s1.setName("b");
+        System.out.println(s1);
+        save.load();
+        System.out.println(s1);
+
+        Name n = Name.getBuilder().setFname("Иванов").setSname("Иван").setPat("Иванович").getName();
+        System.out.println(n);
+
 //        // itmoha
 //        Paragraph p = new Paragraph(List.of(
 //                new Strong(List.of(

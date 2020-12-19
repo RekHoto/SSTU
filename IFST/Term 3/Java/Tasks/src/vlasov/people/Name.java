@@ -61,6 +61,7 @@ public class Name {
             return new Name(this.fname, this.sname, this.pat);
         }
     }
+
     public String toString() {
         return ((sname != null ? sname + ' ' : "")
                 + (fname != null ? fname + ' ' : "")

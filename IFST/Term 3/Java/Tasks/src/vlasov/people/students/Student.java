@@ -53,4 +53,24 @@ public class Student<T> implements Comparable<Student<T>> {
         return Integer.compare(0, res);
     }
 
+    public Save saveState() {
+        return new Memento(name, marks);
+    }
+
+    private class Memento implements Save {
+        String name;
+        List<T> marks;
+
+        public Memento(String name, List<T> marks) {
+            this.name = name;
+            this.marks = new ArrayList<>(marks);
+        }
+
+        @Override
+        public void load() {
+            Student.this.name = name;
+            Student.this.marks = new ArrayList<>(marks);
+        }
+    }
+
 }
